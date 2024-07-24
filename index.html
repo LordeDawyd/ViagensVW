@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt~br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semântica</title>
+</head>
+
+<body>
+    <!--  A semântica no HTML se refere ao uso de elementos que possuem significado específico, tornando o código mais legível tanto para os desenvolvedores quanto para os navegadores e motores de busca. -->
+    <!-- cabeçalho da pagina -->
+    <header><!--Representa o cabeçalho da página-->
+        <nav>
+            <!-- nav tag para menu de navegação -->
+            <ul>
+                <!-- ul é um container de lista nao ordenada -->
+                <!-- tag li é tag de lista -->
+                <!-- tag a - link, dentro do href colocamos o link -->
+                <li>
+                    <a href="https://www.tripadvisor.com.br/Attractions-g303461-Activities-c61-t52-Porto_de_Galinhas_Ipojuca_State_of_Pernambuco.html"
+                        target="_blank">Faça sua reserva</a>
+                </li>
+                <li><a href="">Redes Sociais</a></li>
+                <li><a href="">Saiba mais</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main> <!-- conteudo principal do site -->
+        <section> <!--Define uma seção temática dentro de uma página.-->
+            <h1>Viagens Vai na Web</h1>
+            <!-- é usada para incorporar outro documento HTML dentro do seu documento HTML -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/JJ3VzRiKAq4?si=ikPbiXFUEeKvHmer"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <!-- Seção de tipos de viagem -->
+        <section>
+            <!--  A tag div deve ser usada com sabedoria, ela é usada para divisões, pois não tem tem valor semantico-->
+            <div>
+                <h2>Viagens Internacionais</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, corporis distinctio. Ab inventore
+                    aspernatur impedit repellendus, animi hic nisi unde quod perspiciatis voluptatibus voluptatum nihil
+                    nobis repellat autem ipsa totam.</p>
+            </div>
+            <div>
+                <h2>Viagens Nacionais</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita perferendis in laboriosam magnam.
+                    Molestias delectus possimus, tenetur repellat nesciunt consequatur soluta ullam, at sit reiciendis
+                    ducimus consectetur exercitationem ex eligendi.</p>
+            </div>
+        </section>
+        <!-- seção do form -->
+        <section>
+            <h2>Se inscreva para recebewr novidades</h2>
+            <fieldset><!--Fieldset é tag usada para agrupar um form aplicando um estilo-->
+                <legend>Formulario de Cadastro</legend><!--Legend é uma tag para titulo do form-->
+
+               <!-- <form action="">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome">
+                    <label for="" email:></label>
+                    <input type="email" id="email">
+                </form> <!-- form é uma tag de formulario-->
+                    <form action="">
+                        <label for="nome">Nome:</label> 
+                        <input type="text" id="nome" required>
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email">
+                        <input type="submit">
+
+                    </form>
+            </fieldset>
+        </section>
+    </main>
+    <!-- footer parte final "rodapé do site" -->
+    <footer></footer>
+</body>
+
+</html>
